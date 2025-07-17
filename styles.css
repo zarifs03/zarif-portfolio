@@ -56,7 +56,7 @@ section::before {
 }
 
 .name {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   text-decoration: none;
   background: linear-gradient(135deg, #a855f7, #8b5cf6, #7c3aed);
@@ -440,7 +440,7 @@ section::before {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 60vh;
   text-align: center;
   padding: 120px 40px 80px 40px;
   background: #222;
