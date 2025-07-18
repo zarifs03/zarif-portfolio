@@ -13,10 +13,10 @@ body {
 }
 
 /* Debug borders - remove when layout is finalized */
-section {
+/* section {
   border: 1px solid #333 !important;
   position: relative;
-}
+} */
 
 section::before {
   content: attr(id);
@@ -480,10 +480,10 @@ section::before {
 }
 
 .contact-button {
-  background: linear-gradient(135deg, #00bcd4, #2196f3);
+  background: linear-gradient(135deg, #a855f7, #8b5cf6);
   color: white;
   text-decoration: none;
-  padding: 14px 32px;
+  padding: 12px 24px;
   border-radius: 8px;
   font-weight: 600;
   font-size: 16px;
@@ -493,9 +493,9 @@ section::before {
 }
 
 .contact-button:hover {
-  background: linear-gradient(135deg, #00acc1, #1e88e5);
+  background: linear-gradient(135deg, #9333ea, #7c3aed);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 188, 212, 0.4);
+  box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4);
 }
 
 footer {
