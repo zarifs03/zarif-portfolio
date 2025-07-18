@@ -87,7 +87,7 @@ body {
   color: #a855f7;
 }
 
-#hero {
+#home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,7 +102,7 @@ body {
   position: relative;
 }
 
-#hero h1 {
+#home h1 {
   font-size: 3rem;
   margin-bottom: 24px;
   font-weight: 700;
@@ -114,7 +114,7 @@ body {
   background-clip: text;
 }
 
-#hero p {
+#home p {
   max-width: 600px;
   line-height: 1.6;
   color: #ccc;
@@ -123,7 +123,7 @@ body {
   margin-bottom: 40px;
 }
 
-.hero-links {
+.home-links {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -505,9 +505,9 @@ body {
 }
 
 .contact-button:hover {
-  background: linear-gradient(135deg, #00acc1, #1e88e5);
+  background: linear-gradient(135deg, #9333ea, #7c3aed);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 188, 212, 0.4);
+  box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4);
 }
 
 footer {
@@ -543,16 +543,16 @@ footer p {
     font-size: 14px;
   }
   
-  #hero, #projects, #experience, #skills, #contact {
+  #home, #projects, #experience, #skills, #contact {
     padding-left: 20px;
     padding-right: 20px;
   }
   
-  #hero h1 {
+  #home h1 {
     font-size: 2.5rem;
   }
   
-  #hero p {
+  #home p {
     font-size: 16px;
   }
   
@@ -617,7 +617,7 @@ footer p {
     font-size: 13px;
   }
   
-  #hero h1 {
+  #home h1 {
     font-size: 2rem;
   }
   
@@ -639,7 +639,7 @@ footer p {
     padding: 0 60px;
   }
   
-  #hero, #projects, #experience, #skills, #contact {
+  #home, #projects, #experience, #skills, #contact {
     padding-left: 60px;
     padding-right: 60px;
   }
