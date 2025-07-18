@@ -18,7 +18,7 @@ body {
   position: relative;
 } */
 
-section::before {
+/* section::before {
   content: attr(id);
   position: absolute;
   top: -1px;
@@ -30,7 +30,7 @@ section::before {
   font-weight: 500;
   z-index: 10;
   border-radius: 0 0 3px 0;
-}
+} */
 
 .nav-wrapper {
   border: 1px solid #333 !important;
@@ -212,6 +212,7 @@ section::before {
 
 .card {
   width: 400px;
+  height: 400px;
   background: #2a2a2a;
   border-radius: 8px;
   overflow: hidden;
@@ -219,6 +220,8 @@ section::before {
   margin: 20px;
   transition: all 0.3s ease;
   border: 1px solid #333;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -234,8 +237,17 @@ section::before {
   object-position: center;
 }
 
+.card:nth-child(3) img {
+  background-color: #888;
+  padding: 10px;
+}
+
 .card-content {
   padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .card-content h3 {
@@ -480,10 +492,10 @@ section::before {
 }
 
 .contact-button {
-  background: linear-gradient(135deg, #a855f7, #8b5cf6);
+  background: linear-gradient(135deg, #00bcd4, #2196f3);
   color: white;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 14px 32px;
   border-radius: 8px;
   font-weight: 600;
   font-size: 16px;
@@ -493,9 +505,9 @@ section::before {
 }
 
 .contact-button:hover {
-  background: linear-gradient(135deg, #9333ea, #7c3aed);
+  background: linear-gradient(135deg, #00acc1, #1e88e5);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4);
+  box-shadow: 0 8px 25px rgba(0, 188, 212, 0.4);
 }
 
 footer {
